@@ -64,7 +64,7 @@ console.log(newlang);
 
 //6.
 let arrayNew = ['academy', 'of', 'digital', 'industries'].reduce(function(accumulator,currentvalue) {
-    return accumulator + ' ' currentvalue;
+    return accumulator + ' ' + currentvalue;
 },
 []
 )
