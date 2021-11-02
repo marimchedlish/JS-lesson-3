@@ -70,3 +70,20 @@ let arrayNew = ['academy', 'of', 'digital', 'industries'].reduce(function(accumu
 )
 
 console.log(arrayNew);
+
+//7. 
+
+let item = [12, 'google', 32, null, 'yahoo', 25];
+let mapitem = item.map(function(k)
+{
+ if (typeof k === 'number') {
+     return k * k;
+ }
+else if (typeof k === 'string') {
+    return k.toUpperCase();
+}
+else {
+    return k;
+}
+})
+console.log(mapitem);
