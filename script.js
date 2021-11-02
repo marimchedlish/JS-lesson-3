@@ -61,3 +61,12 @@ let newlang = languages.filter(function(j)
 }
 )
 console.log(newlang);
+
+//6.
+let arrayNew = ['academy', 'of', 'digital', 'industries'].reduce(function(accumulator,currentvalue) {
+    return accumulator + ' ' currentvalue;
+},
+[]
+)
+
+console.log(arrayNew);
