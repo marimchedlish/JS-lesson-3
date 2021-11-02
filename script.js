@@ -87,3 +87,15 @@ else {
 }
 })
 console.log(mapitem);
+
+//8. 
+
+let words = ['Madrid', 'Rome', 'Milan', 'Berlin'];
+
+let newWords = words.filter(function(n) {
+    if (n.includes('m') || n.includes('M')){
+        return n;
+    }  
+}
+)
+console.log(newWords);
